@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    /*el body afecta a toda la pagina*/
+     font-family:sans-serif ;
+     background: linear-gradient(rgb(26 21 30),#8b52bf);
+     padding: 3%;
+     margin: 0;   
+     
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 920px;
+}
+
+.Información{
+
+    height: 50%;
+
+    width: 100%;
+
+}
+
+.color h1{
+    color:white;
+
+
+}
+
+header{
+    /*todo el header es la caja que 
+    rodea a los botones*/
+    position: relative;
+    width: 99.5%;
+    display: flex ;
+    margin-bottom:10px ;
+    height: 50px ;
+    justify-content:space-between;
+    align-items: flex-end;
+    border-radius:9px ;
+    flex-direction: column;
+    z-index: 0;
+    border: 2px solid #000000;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+nav{
+
+   
+    width: 100%;
+    height: inherit;
+    background-color: rgb(253, 251, 251);
+    border-radius: 5px;
+
+}
+
+.LogoG{
+    float: left;
+    height: 45px;
+    width: 45px;  
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.LogoG2{
+    float: left;
+    height: 65px;
+    width: 65px;  
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -15px;
+    margin-bottom: 1px;  
+}
+
+.botones{
+    float: right;
+    margin-left: 70%;
+}
+
+.nav-link{
+    /* todo dentro del nav-link, desde 
+    esta llave, es el color y diseño 
+    de los botones*/
+    padding: 7px;
+    float: right;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.boton-nav{
+    position: relative;
+    border: none;
+    padding: 7px 17px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+
+    
+    /* -Transición de color de fondo- */
+}
+
+.boton-nav:active {
+    background-color: #1cc261; 
+    
+    /*- Cambio de color al presionar (indigo) -*/
+}
+
+
+.boton-nav::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background-size: 800%;
+
+    filter: blur(8px); 
+    /*-filtro de desenfoque-*/
+ animation: glowing 20s linear infinite;
+
+}
+
+/*hasta esta llave*/
+
+
+.espacio{
+
+
+    display: flex;
+
+}
+
+.botones{
+    margin-right: -20%;
+
+    float: left;
+}
+
+.IU{
+    float: right;
+
+    padding: 0px;
+    padding-left: 0px;
+    width: 40px;
+
+}
+
+.Usuario{
+
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+    margin-right: 4px;
+    float: right;
+
+
+}
+
+
+.CI{
+
+width: 70%;
+
+float: left;
+
+}
+
+.MCT{
+
+width: 70%;    
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.CT{
+
+    width: 120%;
+    height: 100%;
+    float: right;
+    background-color: white;
+    border: solid black;
+    box-shadow: 0 40px 8px rgba(0, 0, 0, 0.2);
+    }
+
+.img {
+    
+    width: 100%;
+
+
+
+
+    height: 100%;
+}
+
+.QSTexto{
+float: left;
+
+
+}
+
+.QSTitulo{
+
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 25%;
+}
+
+
+.textMain{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.Titular{
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    padding: 1%;
+    text-align:  center;
+    width: 105%;
+    height: 100%;
+    border-radius: 340px;
+    margin-top: 10px;  
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    
+    
+    }
+
+    .Titular h1{
+        color:white;
+    }
+
+    .FPerfil{
+        width: 90px;
+        border-radius: 340px;
+    }
+    
+    .Nombres{
+        text-align: left;
+        color:#0c3c5d;
+
+        float: right;
+    }
+
+    .title{
+    
+        width: auto;
+        height: 165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: -5px;
+        margin-top: -6px;
+        margin-bottom: -6px;
+        margin-left: 22%;
+        margin-right: 15%;
+
+
+    }
+    
+    .text{
+    
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 22%;
+        margin-right: 15%;
+
+    }
+    
+    .text-2{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .person{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+
+    .star-rating {
+        font-size: 0;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .star-rating input {
+        display: none;
+    }
+    
+    .star-rating label {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #ccc;
+    }
+    
+    .star-rating label:before {
+        content: '★';
+    }
+    
+    .star-rating input:checked ~ label {
+        color: #ffcc00;
+    }
+
+
+
+
+
+
+    
+
+.Cestrellas{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estrellas{
+
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.imagenS{
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.titulo-comunidades{
+    display: flex;
+
+
+    /*esta vaina afecta a la posición*/
+ /*   justify-content: left;*/
+    
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+    }
+    .card-Individual{
+
+        height: 100%;
+        width: 100%;
+        float: right;
+        display: flex;
+    
+    }
+
+    .contenedores{
+
+        width: 100%;
+    }
+    
+    .Grupo{
+    
+        width: 68.5%;
+        height: auto;
+        float: left;
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        }
+        
+        .C1{
+            width: 100%;
+            height: auto;
+            float: left;
+        }
+    
+        .C2{
+            width: 100%;
+            height: auto;
+            float: right;
+        }
+    
+.Individual{
+    width: 29.5%;
+    height: auto;
+    float: right;
+    
+    } 
+
+
+.content{
+    /*padding: 15px 0px 0px 44px;*/
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 160px;
+    margin-top: 10px;
+    background-color:white;
+    box-shadow: 0 40px 8px rgba(0, 0, 0, 0.2);
+        
+    
+    
+    }
+
+    .content2{
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 140px;
+        margin-top: 10px;  
+        background-color: white;
+        box-shadow: 0 40px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .hr-1 {
+        width: 1547px;
+        margin: 0 auto;
+
+       margin-top: 57%;
+        
+    }
+
+    footer{
+        width: 100%;
+      
+        padding: 0px;
+        text-align: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    
+     }
+
+
+    ul{ /*este afecta a todos los ul*/
+        list-style-type: none;
+        padding: 0;
+    
+    }
+    
+    li { /*afecta al footeren su distribución*/
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    a { /*afecta a el footer en el color*/
+        text-decoration: none;
+        color: #333;
+    }
+
+
+    .sin-salto-linea {
+        white-space: nowrap;
+    }
+    
+    .subrayado{
+        color: white;
+        transition: color 0.3s;
+    }
+    
+    .subrayado:hover {
+        color: #140724
+    }
+    
+    

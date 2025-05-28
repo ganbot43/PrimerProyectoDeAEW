@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(214, 240, 241);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+  
+
+h1 {
+    font-size: 36px;
+    margin: 20px;
+    
+}
+
+nav {
+    border: 1px solid;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px 6px 6px 6px;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.botones {
+    background: #8a2be2; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    transition: transform 0.5s ease; /* Agregamos una transición a la propiedad transform */
+}
+
+.botones:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse sobre la imagen */
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 430px;
+    padding: 1px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.categoria {
+    text-align: center;
+    background-color: rgb(229, 247, 204);
+    border: 1px solid #242222;
+    padding: 50px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px;
+    
+}
+
+.categoria img {
+    text-align: center;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px; /* Ajusta el radio de borde según tus necesidades */
+}
+
+.hr {
+    max-width: 1855px;
+    margin: 0 auto;
+   
+    
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
